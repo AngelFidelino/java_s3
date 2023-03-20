@@ -1,0 +1,10 @@
+cloud:
+  aws:
+    credentials:
+        access-key: *
+        secret-key: *
+    region:
+      auto: false #Disable using the preferred option for AWS Default Region Provider
+      static: us-east-1
+    stack:
+      auto: false #Disable the automatic stack name detection for the application TO AVOID USING THE preferred option for AWS Credential Provider
